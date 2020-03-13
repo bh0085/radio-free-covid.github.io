@@ -18,7 +18,7 @@ body.page-home #title{
     color: black;
     display: block;
     text-align: center;
-    margin-top:50vh;
+    margin-top:40vh;
     transform: translate(0%, -50%);
     line-height:6em;
 }
@@ -72,7 +72,8 @@ body.page-home .icon{
 }
 
 footer{
-    position:fixed;
+    position:relative;
+    margin-top:200px;
     bottom:0px;
     left:50vw;
     transform:translate(-50%, 0%);
@@ -80,6 +81,8 @@ footer{
     margin-bottom:20px;
     padding:20px;
     background:white;
+    width:100%;
+    text-align:center;
 }
 
 
