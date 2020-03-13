@@ -18,7 +18,7 @@ body.page-home #title{
     color: black;
     display: block;
     text-align: center;
-    margin-top:40vh;
+    margin-top:50vh;
     transform: translate(0%, -50%);
     line-height:6em;
 }
@@ -34,8 +34,6 @@ body.page-home .icon{
 
 .brand{
     color:black;
-    font-weight:bold;
-    font-size:35px;
 }
 .brand a:link{
     color:black;
@@ -44,36 +42,8 @@ body.page-home .icon{
     color:black;
 }
 
-.navbar li{
-    display:inline;
-    padding-left:20px;
-}
-.navbar{
-    text-align:center;
-    position: fixed;
-    padding-top:20px;
-    top:0px;
-    left: 0px;
-    right: 0px;
-    background-color:rgba(255, 255, 255, .7);
-    z-index: 100;
-    width:100%;
-}
-
-.navbar-container .row{
-    white-space:nowrap;
-}
-.main.container{
-    margin-top:160px;
-}
-.navbar>*{
-    margin-left:auto;
-    margin-right:auto;
-}
-
 footer{
-    position:relative;
-    margin-top:200px;
+    position:fixed;
     bottom:0px;
     left:50vw;
     transform:translate(-50%, 0%);
@@ -81,8 +51,6 @@ footer{
     margin-bottom:20px;
     padding:20px;
     background:white;
-    width:100%;
-    text-align:center;
 }
 
 
