@@ -35,6 +35,7 @@ body.page-home .icon{
 .brand{
     color:black;
     font-weight:bold;
+    font-size:35px;
 }
 .brand a:link{
     color:black;
@@ -45,6 +46,7 @@ body.page-home .icon{
 
 .navbar li{
     display:inline;
+    padding-left:20px;
 }
 .navbar{
     text-align:center;
@@ -53,7 +55,7 @@ body.page-home .icon{
     top:0px;
     left: 0px;
     right: 0px;
-    background-color: white;
+    background-color:rgba(255, 255, 255, .7);
     z-index: 100;
     width:100%;
 }
@@ -62,7 +64,7 @@ body.page-home .icon{
     white-space:nowrap;
 }
 .main.container{
-    margin-top:10vh;
+    margin-top:160px;
 }
 .navbar>*{
     margin-left:auto;
