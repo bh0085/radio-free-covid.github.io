@@ -1,0 +1,40 @@
+.useful-container{
+    font-family:courier;
+}
+.useful{
+    font-weight:bold;
+    padding-left:20px;
+}
+
+.maybe,.yes,.no{
+    padding-left:10px;
+}
+.maybe:before{
+content:"maybe";
+}
+.maybe{
+    background:blue;
+    color:white;
+}
+.yes{
+    background:greenyellow;
+}
+.no{
+    background:yellow;
+}
+
+.no:before{
+    content:"probably not";
+    }
+    .yes:before{
+        content:"yes";
+        }
+
+li{
+    line-height:1.5em;
+    list-style:none;
+
+}
+a{
+    text-decoration:underline;
+}

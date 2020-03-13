@@ -34,12 +34,39 @@ body.page-home .icon{
 
 .brand{
     color:black;
+    font-weight:bold;
 }
 .brand a:link{
     color:black;
 }
 .brand a:visited{
     color:black;
+}
+
+.navbar li{
+    display:inline;
+}
+.navbar{
+    text-align:center;
+    position: fixed;
+    padding-top:20px;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    z-index: 100;
+    width:100%;
+}
+
+.navbar-container .row{
+    white-space:nowrap;
+}
+.main.container{
+    margin-top:10vh;
+}
+.navbar>*{
+    margin-left:auto;
+    margin-right:auto;
 }
 
 footer{
